@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`APP should render the component 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="header"
+    >
+      <div
+        class="header__title"
+      >
+        Phantom App
+      </div>
+      <div
+        class="loading"
+      >
+        <div
+          class="loader"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
