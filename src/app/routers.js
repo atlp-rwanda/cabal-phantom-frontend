@@ -13,6 +13,7 @@ export default class Routers extends Component {
                         <Route path="/" exact component={LoadingPage} />
                         <Route path="/login" exact component={LoginPage} />
                         <Route path="/dashboard" exact component={DashBoard} />
+                
                      </Switch>
                  </Router>                
             </div>

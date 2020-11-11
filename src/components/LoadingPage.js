@@ -12,4 +12,5 @@ class LoadingPage extends Component {
         )
     }
 }
+
 export default LoadingPage

@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-import Dashboard from '../components/dashboard'
+import Logout from '../components/Logout'
 
 export default class dashboardPage extends Component {
     render() {
         return (
             <div>
-                    <Dashboard />
+                    <Logout />
             </div>
         )
     }
