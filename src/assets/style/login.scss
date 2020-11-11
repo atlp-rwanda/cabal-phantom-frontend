@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans";
+}
+
+.div2{
+    height: 550px;
+    background:  white;
+    width: 442px;
+    border-radius: 5px;
+    box-shadow: 13px 14px 15px rgb(3, 3, 3);
+    opacity: 1;
+    padding-left:40px ;
+}
+
+.loginPage{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(rgba(11, 44, 34, 0.459), rgba(44, 143, 122, 0.308)),
+    url("https://live.staticflickr.com/565/21860358190_cc3d179571_b.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.inputLogin{
+    background: rgba(88, 123, 245, 0.1);
+    color:black;
+    border-bottom-style: 2px solid #fff;
+    font-family: Arial;
+    width: 370px;
+    height: 47px;
+    text-align: left;
+    font-size: 16px;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-radius: 10px;
+    padding: 4px;
+    border: 1px solid #C4C4C4;
+}
+
+hr{
+    position: absolute;
+    width: 1920px;
+    height: 0.3px;
+    left: 0px;
+    top: 60px;
+    background: #C4C4C4;
+    border: 1px solid #FFFFFF;
+}
+
+label{
+    font-size:20px;
+    text-align: left;
+    padding-right: 100px;
+    margin-bottom :20px;
+    font-family: Roboto;
+}
+
+.loginButton {
+    background: green;
+    color: black;
+    border: 4px black;
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 7px;
+    width: 370px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 1px 1px 1px 1px rgb(9, 68, 50);
+    margin-top: 60px;
+    padding-bottom:20px ;
+    font-family: Roboto;
+    }
+    
+    .loginButton:hover {
+    box-shadow: 1.5px 1.5px 4px 1.5px black;
+}
+
+.cancel{
+    padding-left: 350px;
+    height: 30px;
+    width:30px;
+}
+
+span{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+p{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+h1{
+    font-size: 26px;
+    font-weight: bold;
+    font-family: Roboto;
+}
+
+h2{
+    color: white;
+    font-family: Roboto;
+}
+
+@media only screen and (max-width: 600px){
+    .div2{
+        height: 440px;
+        background:  white;
+        width: 310px;
+        border-radius: 2px;
+        box-shadow: 6.5px 7px 7.5px rgb(3, 3, 3);
+        opacity: 1;
+        padding-left:40px ;
+    }
+
+    .inputLogin{
+        background: rgba(88, 123, 245, 0.1);
+        color:black;
+        border-bottom-style: 1px solid #fff;
+        font-family: Arial;
+        width: 250px;
+        height: 30px;
+        text-align: left;
+        font-size: 16px;
+        border-top-style: solid;
+        border-left-style: solid;
+        border-right-style: solid;
+        border-radius: 5px;
+        padding: 4px;
+        border: 0.5px solid #C4C4C4;
+    }
+
+    .loginButton {
+        background: green;
+        color: black;
+        border: 2px black;
+        border-radius: 4px;
+        font-size: 20px;
+        padding: 7px;
+        width: 250px;
+        font-weight: bold;
+        text-align: center;
+        box-shadow: 1px 1px 1px 1px rgb(9, 68, 50);
+        margin-top: 0px;
+        padding-bottom:20px ;
+        font-family: Roboto;
+        height: 40px;
+        }
+    .cancel{
+        padding-left: 270px;
+        height: 30px;
+        width:30px;
+        }     
+        .loginPage{
+            display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+          background-image: linear-gradient(rgba(11, 44, 34, 0.459), rgba(44, 143, 122, 0.308)),
+            url("https://live.staticflickr.com/565/21860358190_cc3d179571_b.jpg");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-attachment: fixed;
+        }
+
+        h2{
+            color: white;
+            font-family: Roboto;
+            font-size: 20px;
+        }
+}

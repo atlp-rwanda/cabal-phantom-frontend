@@ -1,185 +1,97 @@
  .footer{
-   //background-color: #040F23;
-    // width: 120%;
-    height: 50vh;
     .footer__header{
         background-color: #040F23;
         display: flex;
+        justify-content: space-between;
+        flex: 1;
+        border-bottom: 1px solid #ccc;
         .footer__about{
-          margin: 2rem 3rem;
-          height: 30rem;
-          width: 40rem;
-          margin-top: 12px;
+          margin: 2rem 5rem;
+          padding: 0 3rem;
+          flex: 0.3;
         }
         .footer__contact{
-          margin: 2rem 3rem;
-          height: 30rem;
-          width: 40rem;
-          margin-top: 12px;
+          margin: 2rem 5rem;
+          padding: 0 3rem;
+          flex: 0.25;
+          display: flex;
+          flex-direction: column;
         }
         .footer__social{
-          height: 30rem;
-          width: 40rem;
-          margin-top: 12px;
+          margin: 2rem 5rem;
+          padding: 0 3rem;
+          flex: 0.25;
           span{
-            margin: 5rem 3rem auto;
-            padding-top: 3rem;
-            font-size:24px;
-            color:white
+            font-size: 1.7rem;
+            margin-right: 1.6rem;
+            color: white;
+
+            a>i:hover{
+              color: #1ABAC5;
+            }
           }
         }
         h2{
-          font-family: Roboto;
-          font-style: normal;
+          font-size: 2rem;
+          line-height: 2;
           font-weight: bold;
-          font-size: 26px;
-          line-height: 42px;
-          text-align: center;
-          align-items: center;
           letter-spacing: 0.11em;
-          color: #1ABAC5;;
+          color: #1ABAC5;
         }
         .footer__about  p{
-            font-family: Roboto;
-            font-style: normal;
+            font-size: 1.5rem;
             font-weight: normal;
-            font-size: 18px;
-            padding: 3rem ;
-            line-height: 39px;
+            line-height: 2;
             text-align: justify;
             letter-spacing: 0.1em;
             color: #FFFFFF;
           }
           .footer__contact {
             h5{
-              padding: 1rem 3rem ;
-              font-size:25px;
+              padding: 1rem 0;
+              font-size: 1.5rem;
               color:white
             }
           }
           .footer__contact a{
-              margin: 2rem 3rem auto;
-              font-size:24px;
+              margin-left: 1rem;
+              font-size: 1.5rem;
               color:white
            }
      }
       .footer__footer{
           background-color: #040F23;
-          font-family: Roboto;
-          font-style: normal;
-          font-weight: normal;
-          font-size: 20px;
-          line-height: 48px;
-          text-align: center;
           letter-spacing: 0.1em;
           color: #FFFFFF;
-        }
-        .footer__social h2{
-            padding-bottom: 32px;
+          padding: 1.5rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          p{
+            font-weight: normal;
+            font-size: 1.4rem;
+
+          }
         }
         .footer__social i{
             color: white;
         }
 }
-@media only screen and (max-width: 425px) {
-    .footer{
-      height: 50vh;
-    .footer__header{
-      height: 35vh;
-        .footer__contact{
-          height: 20rem;
-          h2{
-            font-size: 20px;
-          }
-          h5{
-            padding: 1.3rem 3rem ;
-            font-size:20px;
-          }
 
-        }
-        .footer__social{
-         height: 10rem;
-          h2{
-            font-size: 20px;
-          }
-          height: 8rem;
-          padding-bottom:3rem ;
-          text-align: center;
-        }
-      .footer__about{
-        display: none;
-      }
-      float: none;
-      display: block;
-   }
-   .footer__footer{
-      height: 15vh;
-      font-size: 13px;
-      text-align: center;
-    }
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .footer{
-    height: 60vh;
-    color: green;
-    .footer__header{
-      height: 35vh;
-        .footer__contact{
-          height: 20rem;
-          h2{
-            font-size: 20px;
-          }
-          h5{
-            padding: 1.5rem 3rem ;
-            font-size:20px;
-          }
-
-        }
-        .footer__social{
-          h2{
-            font-size: 20px;
-          }
-          height: 8rem;
-          padding-bottom:3rem ;
-          text-align: center;
-        }
-      .footer__about{
-        display: none;
-      }
-      float: none;
-      display: block;
-   }
-   .footer__footer{
-      height: 15vh;
-      font-size: 15px;
-      text-align: center;
-    }
-  }
-
-}
 
 @media only screen and (max-width: 768px) {
-  .footer{
-    height: 40rem;
-    .footer__header{
-      height: 35rem;
-      h2{
-        font-size: 23px;
-      }
-      .footer__contact{
-        width: 30rem;
-        }
-      .footer__about{
-        display: none;
-      }
-   }
-   .footer__footer{
-      height: 5rem;
-      padding: 3rem auto;
-      font-size: 17px;
-      text-align: center;
-    }
-  } 
+  .footer__header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 2rem;
+  }
+
+ .footer__about,
+  .footer__contact,
+  .footer__social{
+    flex: 1;
+    padding: 0;
+    margin: 1rem;
+  }
 }

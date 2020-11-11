@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home component Should render home component properly 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="sc-hKgILt klQwrC"
+    >
+      <div
+        class="sc-eCssSg fcxdPt shadow-lg m-0"
+      >
+        <div
+          class="sc-bdfBwQ gTvohX"
+        >
+          <h2
+            class="sc-gsTCUz kumOmz"
+          >
+            Unauthorized ⚠
+          </h2>
+        </div>
+        <p
+          class="sc-dlfnbm jgcUVG"
+        >
+          Hello ,
+        </p>
+        <p>
+          You are not authorized to access here! Please reach out to system administrator for help.
+        </p>
+        <p />
+        <div
+          class="sc-jSgupP DqXon"
+        >
+          <a
+            href="/login"
+          >
+            <button
+              class="btn btn-primary"
+            >
+              Go Back
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

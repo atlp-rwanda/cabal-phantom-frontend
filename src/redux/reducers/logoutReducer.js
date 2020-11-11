@@ -2,7 +2,7 @@ import * as actionTypes from "../types/logoutTypes";
 
 const initialState = {
     loading: 'none',
-    data: {},
+    data: [],
     error:''
 };
 
@@ -22,7 +22,7 @@ const logoutReducer = (state = initialState, action) => {
     case actionTypes.LOGOUT_ERROR:
       return {
         loading: 'none',
-        data: {},
+        data: [],
         error: action.payload
       }
 

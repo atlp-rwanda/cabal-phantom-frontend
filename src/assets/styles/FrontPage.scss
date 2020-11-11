@@ -1,5 +1,4 @@
 .frontpage {
-  //width: 120%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,18 +9,19 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+
   h1{
       font-family: "Oswald";
       text-align: center;
       color: white;
       font-weight: bold;
-      font-size: 7rem;
+      font-size: 5.5rem;
       line-height: 2;
       letter-spacing: 0.3rem;
   }
   h5 {
       font-family: Roboto;
-      font-size: 2.3rem;
+      font-size: 2rem;
       line-height: 1.5;
       letter-spacing: 0.11em;
       margin: 1% 20%;
@@ -32,6 +32,8 @@
 
 .frontpage__input {
   margin: 5% 0;
+  display: flex;
+  align-items: center;
   input[type=search] {
     padding: 0.8rem;
     width: 30rem;
@@ -50,6 +52,7 @@
     border: none;
     color: #fff;
     background-color: #0c8f97;
+    font-size: medium;
   }
 }
 
@@ -57,16 +60,17 @@
   .frontpage{
     .frontpage__text{
       h1 {
-        font-size: 4rem;
+        font-size: 3rem;
       }
       h5 {
-        font-size: 1.8rem;
+        font-size: 1.4rem;
         margin: 1% 3%;
       }
     }
     .frontpage__input {
       margin: 5% 32%;
-      width: 30rem;
+      display: flex;
+      flex-direction: column;
       button {
         margin: 5% 3%;
         width: 30rem;

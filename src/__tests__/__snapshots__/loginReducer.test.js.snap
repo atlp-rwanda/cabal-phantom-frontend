@@ -1,0 +1,170 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LOGIN - REDUCER should render the component correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="login__container"
+  >
+    <div
+      class="headers"
+    >
+      <div
+        class="headers__logo"
+      >
+        Phantom
+      </div>
+      <div
+        class="headers__menu"
+      >
+        <select
+          class="headers__menu__select"
+          name="Languages"
+        >
+          <option
+            value="English"
+          >
+            English
+          </option>
+          <option
+            value="French"
+          >
+            French
+          </option>
+          <option
+            value="Kinyarwanda"
+          >
+            Kinyarwanda
+          </option>
+        </select>
+      </div>
+    </div>
+    <div
+      class="loginPage"
+    >
+      <div
+        class="div2"
+      >
+        <form
+          id="form"
+        >
+          <span
+            style="display: none;"
+          >
+            <div
+              class="progress"
+            >
+              <div
+                aria-valuemax="100"
+                aria-valuemin="0"
+                aria-valuenow="33"
+                class="progress-bar progress-bar-animated bg-primary progress-bar-striped"
+                role="progressbar"
+                style="width: 33%;"
+              />
+              <div
+                aria-valuemax="100"
+                aria-valuemin="0"
+                aria-valuenow="34"
+                class="progress-bar progress-bar-animated bg-success progress-bar-striped"
+                role="progressbar"
+                style="width: 34%;"
+              />
+              <div
+                aria-valuemax="100"
+                aria-valuemin="0"
+                aria-valuenow="33"
+                class="progress-bar progress-bar-animated bg-warning progress-bar-striped"
+                role="progressbar"
+                style="width: 33%;"
+              />
+            </div>
+          </span>
+          <div
+            class="d-flex justify-content-between align-items-center mb-5"
+          >
+            <h1
+              class="login-title"
+            >
+              Login
+            </h1>
+            <a
+              href="/"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root"
+                focusable="false"
+                style="font-size: 3rem; cursor: pointer; color: black;"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                />
+              </svg>
+            </a>
+          </div>
+          <span
+            style="color: red;"
+          />
+          <div
+            class="d-flex flex-column mb-4"
+          >
+            <label
+              for=""
+              id="email"
+            >
+              Email
+            </label>
+            <span
+              style="color: red;"
+            />
+            <input
+              aria-label="email"
+              class="inputLogin"
+              id="aria-1"
+              name="email"
+              placeholder="email"
+              type="email"
+            />
+          </div>
+          <div
+            class="d-flex flex-column mb-4"
+          >
+            <label
+              for=""
+              id="password"
+            >
+              Password
+            </label>
+            <span
+              style="color: red;"
+            />
+            <input
+              aria-label="password"
+              class="inputLogin"
+              id="aria-2"
+              name="password"
+              placeholder="password"
+              type="password"
+            />
+            <a
+              class="resetPassword mb4"
+              href="/reset-password"
+            >
+              Forgot Password
+            </a>
+          </div>
+          <button
+            aria-label="login"
+            class="loginButton"
+            type="submit"
+            value="LOGIN"
+          >
+            Login
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

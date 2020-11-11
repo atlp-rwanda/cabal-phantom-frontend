@@ -12,22 +12,28 @@ exports[`APP should render the component 1`] = `
           id="nav_black"
         >
           <div
-            class="menu-icon"
-            id="icon"
+            class="responsive-nav"
           >
-            <i
-              class="fa fa-bars fa-4x"
-            />
-          </div>
-          <a
-            href="/"
-          >
-            <div
-              class="logo"
-            >
-              Phantom
+            <div>
+              <a
+                href="/"
+              >
+                <div
+                  class="logo"
+                >
+                  Phantom
+                </div>
+              </a>
             </div>
-          </a>
+            <div
+              class="menu-icon"
+              id="icon"
+            >
+              <i
+                class="fa fa-bars fa-4x"
+              />
+            </div>
+          </div>
           <div
             class="menu"
           >
@@ -49,16 +55,14 @@ exports[`APP should render the component 1`] = `
                   Contact Us
                 </a>
               </li>
-              <li>
+              <li
+                class="login_menu"
+              >
                 <a
                   class="header__menu__item"
                   duration="1000"
                   href="/login"
                 >
-                  <i
-                    aria-hidden="true"
-                    class="fa fa-user"
-                  />
                   Login
                 </a>
               </li>
@@ -143,9 +147,10 @@ exports[`APP should render the component 1`] = `
             <img
               alt=""
               src="test-file-stub"
+              width="30%"
             />
             <h2>
-              What is Phantom
+              What is Phantom?
             </h2>
             <p>
               Phantom is website that provide you easier way to find public bus in Rwanda
@@ -157,6 +162,7 @@ exports[`APP should render the component 1`] = `
             <img
               alt=""
               src="test-file-stub"
+              width="30%"
             />
             <h2>
               Why Phantom?
@@ -229,13 +235,11 @@ exports[`APP should render the component 1`] = `
               class="fa fa-envelope"
             >
               <a
-                href=""
+                href="mailto:phantomcabal2@gmail.com"
               >
                 hello@phantom.com
               </a>
             </h5>
-            <br />
-            <br />
             <h5
               class="fa fa-phone"
             >
@@ -270,7 +274,6 @@ exports[`APP should render the component 1`] = `
                 />
               </a>
             </span>
-             
             <span>
               <a
                 href=""
@@ -280,7 +283,6 @@ exports[`APP should render the component 1`] = `
                 />
               </a>
             </span>
-             
             <span>
               <a
                 href=""
@@ -290,7 +292,6 @@ exports[`APP should render the component 1`] = `
                 />
               </a>
             </span>
-             
             <span>
               <a
                 href=""
@@ -300,15 +301,13 @@ exports[`APP should render the component 1`] = `
                 />
               </a>
             </span>
-             
           </div>
         </div>
-        <hr />
         <div
           class="footer__footer"
         >
           <p>
-            Copyright © 2020 - 2020 Phantom. All rights reserved
+            Copyright © 2021 Phantom. All rights reserved
           </p>
         </div>
       </div>

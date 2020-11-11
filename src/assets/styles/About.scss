@@ -1,15 +1,15 @@
 .about{
-    // width: 120%;
     background-color: rgba(12, 143, 151, 0.1);
-    padding-top: 5%;
+    padding-bottom: 2%;
 }
 
 .about__title{
     font-size: 5rem;
     text-align: center;
-    padding: 2rem 0;
+    padding: 3rem 0 1.5rem;
+    font-weight: bold;
     font-family: 'Oswald';
-    letter-spacing: .4rem;
+    letter-spacing: 2;
 }
 
 .about__card{
@@ -22,7 +22,7 @@
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     text-align: center;
-    padding: 7rem 3rem;
+    padding: 5rem 1.8rem;
     flex: 1;
     background-color: #fff;
     margin: auto 8%;
@@ -31,6 +31,7 @@
 .about__card__template h2{
     font-size: 3rem;
     margin: 2.5rem 0;
+    color: #000;
 }
 
 .about__card__template p{
@@ -47,16 +48,9 @@
         padding: 1rem 3rem;
     }
 }
-// @media only screen and (max-width:320px) {
-//      .about{
-//         width: 120%;
-//         height: 100vh;
-//     }   
-// }
+
 @media only screen and (max-width: 600px) {
     .about{
-        // width: 120%;
-        height: 150vh;
         .about__title{
             font-size: 4rem;
         }
@@ -66,6 +60,12 @@
             .about__card__template{ 
                 margin: 2rem;
                 padding-bottom: 2rem;
+                h2{
+                    font-size: 2.4rem;
+                }
+                p{
+                    font-size: 1.4rem;
+                }
             }
         }
     }

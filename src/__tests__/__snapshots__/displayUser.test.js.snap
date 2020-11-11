@@ -1,0 +1,795 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home component Should render home component properly 1`] = `
+<DocumentFragment>
+  <div
+    class="p-4"
+  >
+    <div
+      class="d-flex justify-content-between align-items-center"
+      style="padding: 1rem 0px; border-bottom: 2px solid #fff; font-weight: bolder;"
+    >
+      <h2
+        class="text-primary"
+      >
+        Users
+      </h2>
+      <div
+        class="button_icon"
+      >
+        <button
+          class="d-flex align-items-center btn btn-outline-primary"
+          type="button"
+        >
+          <div>
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root"
+              focusable="false"
+              style="font-size: 2rem;"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M18 13h-5v5c0 .55-.45 1-1 1s-1-.45-1-1v-5H6c-.55 0-1-.45-1-1s.45-1 1-1h5V6c0-.55.45-1 1-1s1 .45 1 1v5h5c.55 0 1 .45 1 1s-.45 1-1 1z"
+              />
+            </svg>
+          </div>
+          <div
+            class="ml-2"
+          >
+            Add
+          </div>
+        </button>
+      </div>
+    </div>
+    <table
+      class="h4 table-responsive-sm table table-bordered table-striped"
+    >
+      <thead>
+        <tr>
+          <th>
+            ID
+          </th>
+          <th>
+            Name
+          </th>
+          <th>
+            Email
+          </th>
+          <th>
+            Role
+          </th>
+          <th
+            colspan="2"
+          >
+            Actions
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th
+            scope="row"
+          >
+            <span>
+              <span
+                class="react-loading-skeleton css-1vmnjpn-skeletonStyles-Skeleton"
+              >
+                ‌
+              </span>
+            </span>
+          </th>
+          <td>
+            <span>
+              <span
+                class="react-loading-skeleton css-1vmnjpn-skeletonStyles-Skeleton"
+              >
+                ‌
+              </span>
+            </span>
+          </td>
+          <td>
+            <span>
+              <span
+                class="react-loading-skeleton css-1vmnjpn-skeletonStyles-Skeleton"
+              >
+                ‌
+              </span>
+            </span>
+          </td>
+          <td>
+            <span>
+              <span
+                class="react-loading-skeleton css-1vmnjpn-skeletonStyles-Skeleton"
+              >
+                ‌
+              </span>
+            </span>
+          </td>
+          <td
+            style="color: blue; font-size: 1.8rem;"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M17.75 7L14 3.25l-10 10V17h3.75l10-10zm2.96-2.96c.39-.39.39-1.02 0-1.41L18.37.29a.9959.9959 0 0 0-1.41 0L15 2.25 18.75 6l1.96-1.96z"
+              />
+              <path
+                d="M0 20h24v4H0z"
+                fill-opacity=".36"
+              />
+            </svg>
+          </td>
+          <td
+            style="color: red; font-size: 1.8rem;"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+              />
+            </svg>
+          </td>
+        </tr>
+        <tr>
+          <th
+            scope="row"
+          >
+            <span>
+              <span
+                class="react-loading-skeleton css-1vmnjpn-skeletonStyles-Skeleton"
+              >
+                ‌
+              </span>
+            </span>
+          </th>
+          <td>
+            <span>
+              <span
+                class="react-loading-skeleton css-1vmnjpn-skeletonStyles-Skeleton"
+              >
+                ‌
+              </span>
+            </span>
+          </td>
+          <td>
+            <span>
+              <span
+                class="react-loading-skeleton css-1vmnjpn-skeletonStyles-Skeleton"
+              >
+                ‌
+              </span>
+            </span>
+          </td>
+          <td>
+            <span>
+              <span
+                class="react-loading-skeleton css-1vmnjpn-skeletonStyles-Skeleton"
+              >
+                ‌
+              </span>
+            </span>
+          </td>
+          <td
+            style="color: blue; font-size: 1.8rem;"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M17.75 7L14 3.25l-10 10V17h3.75l10-10zm2.96-2.96c.39-.39.39-1.02 0-1.41L18.37.29a.9959.9959 0 0 0-1.41 0L15 2.25 18.75 6l1.96-1.96z"
+              />
+              <path
+                d="M0 20h24v4H0z"
+                fill-opacity=".36"
+              />
+            </svg>
+          </td>
+          <td
+            style="color: red; font-size: 1.8rem;"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+              />
+            </svg>
+          </td>
+        </tr>
+        <tr>
+          <th
+            scope="row"
+          >
+            <span>
+              <span
+                class="react-loading-skeleton css-1vmnjpn-skeletonStyles-Skeleton"
+              >
+                ‌
+              </span>
+            </span>
+          </th>
+          <td>
+            <span>
+              <span
+                class="react-loading-skeleton css-1vmnjpn-skeletonStyles-Skeleton"
+              >
+                ‌
+              </span>
+            </span>
+          </td>
+          <td>
+            <span>
+              <span
+                class="react-loading-skeleton css-1vmnjpn-skeletonStyles-Skeleton"
+              >
+                ‌
+              </span>
+            </span>
+          </td>
+          <td>
+            <span>
+              <span
+                class="react-loading-skeleton css-1vmnjpn-skeletonStyles-Skeleton"
+              >
+                ‌
+              </span>
+            </span>
+          </td>
+          <td
+            style="color: blue; font-size: 1.8rem;"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M17.75 7L14 3.25l-10 10V17h3.75l10-10zm2.96-2.96c.39-.39.39-1.02 0-1.41L18.37.29a.9959.9959 0 0 0-1.41 0L15 2.25 18.75 6l1.96-1.96z"
+              />
+              <path
+                d="M0 20h24v4H0z"
+                fill-opacity=".36"
+              />
+            </svg>
+          </td>
+          <td
+            style="color: red; font-size: 1.8rem;"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+              />
+            </svg>
+          </td>
+        </tr>
+        <tr>
+          <th
+            scope="row"
+          >
+            <span>
+              <span
+                class="react-loading-skeleton css-1vmnjpn-skeletonStyles-Skeleton"
+              >
+                ‌
+              </span>
+            </span>
+          </th>
+          <td>
+            <span>
+              <span
+                class="react-loading-skeleton css-1vmnjpn-skeletonStyles-Skeleton"
+              >
+                ‌
+              </span>
+            </span>
+          </td>
+          <td>
+            <span>
+              <span
+                class="react-loading-skeleton css-1vmnjpn-skeletonStyles-Skeleton"
+              >
+                ‌
+              </span>
+            </span>
+          </td>
+          <td>
+            <span>
+              <span
+                class="react-loading-skeleton css-1vmnjpn-skeletonStyles-Skeleton"
+              >
+                ‌
+              </span>
+            </span>
+          </td>
+          <td
+            style="color: blue; font-size: 1.8rem;"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M17.75 7L14 3.25l-10 10V17h3.75l10-10zm2.96-2.96c.39-.39.39-1.02 0-1.41L18.37.29a.9959.9959 0 0 0-1.41 0L15 2.25 18.75 6l1.96-1.96z"
+              />
+              <path
+                d="M0 20h24v4H0z"
+                fill-opacity=".36"
+              />
+            </svg>
+          </td>
+          <td
+            style="color: red; font-size: 1.8rem;"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+              />
+            </svg>
+          </td>
+        </tr>
+        <tr>
+          <th
+            scope="row"
+          >
+            <span>
+              <span
+                class="react-loading-skeleton css-1vmnjpn-skeletonStyles-Skeleton"
+              >
+                ‌
+              </span>
+            </span>
+          </th>
+          <td>
+            <span>
+              <span
+                class="react-loading-skeleton css-1vmnjpn-skeletonStyles-Skeleton"
+              >
+                ‌
+              </span>
+            </span>
+          </td>
+          <td>
+            <span>
+              <span
+                class="react-loading-skeleton css-1vmnjpn-skeletonStyles-Skeleton"
+              >
+                ‌
+              </span>
+            </span>
+          </td>
+          <td>
+            <span>
+              <span
+                class="react-loading-skeleton css-1vmnjpn-skeletonStyles-Skeleton"
+              >
+                ‌
+              </span>
+            </span>
+          </td>
+          <td
+            style="color: blue; font-size: 1.8rem;"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M17.75 7L14 3.25l-10 10V17h3.75l10-10zm2.96-2.96c.39-.39.39-1.02 0-1.41L18.37.29a.9959.9959 0 0 0-1.41 0L15 2.25 18.75 6l1.96-1.96z"
+              />
+              <path
+                d="M0 20h24v4H0z"
+                fill-opacity=".36"
+              />
+            </svg>
+          </td>
+          <td
+            style="color: red; font-size: 1.8rem;"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+              />
+            </svg>
+          </td>
+        </tr>
+        <tr>
+          <th
+            scope="row"
+          >
+            <span>
+              <span
+                class="react-loading-skeleton css-1vmnjpn-skeletonStyles-Skeleton"
+              >
+                ‌
+              </span>
+            </span>
+          </th>
+          <td>
+            <span>
+              <span
+                class="react-loading-skeleton css-1vmnjpn-skeletonStyles-Skeleton"
+              >
+                ‌
+              </span>
+            </span>
+          </td>
+          <td>
+            <span>
+              <span
+                class="react-loading-skeleton css-1vmnjpn-skeletonStyles-Skeleton"
+              >
+                ‌
+              </span>
+            </span>
+          </td>
+          <td>
+            <span>
+              <span
+                class="react-loading-skeleton css-1vmnjpn-skeletonStyles-Skeleton"
+              >
+                ‌
+              </span>
+            </span>
+          </td>
+          <td
+            style="color: blue; font-size: 1.8rem;"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M17.75 7L14 3.25l-10 10V17h3.75l10-10zm2.96-2.96c.39-.39.39-1.02 0-1.41L18.37.29a.9959.9959 0 0 0-1.41 0L15 2.25 18.75 6l1.96-1.96z"
+              />
+              <path
+                d="M0 20h24v4H0z"
+                fill-opacity=".36"
+              />
+            </svg>
+          </td>
+          <td
+            style="color: red; font-size: 1.8rem;"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+              />
+            </svg>
+          </td>
+        </tr>
+        <tr>
+          <th
+            scope="row"
+          >
+            <span>
+              <span
+                class="react-loading-skeleton css-1vmnjpn-skeletonStyles-Skeleton"
+              >
+                ‌
+              </span>
+            </span>
+          </th>
+          <td>
+            <span>
+              <span
+                class="react-loading-skeleton css-1vmnjpn-skeletonStyles-Skeleton"
+              >
+                ‌
+              </span>
+            </span>
+          </td>
+          <td>
+            <span>
+              <span
+                class="react-loading-skeleton css-1vmnjpn-skeletonStyles-Skeleton"
+              >
+                ‌
+              </span>
+            </span>
+          </td>
+          <td>
+            <span>
+              <span
+                class="react-loading-skeleton css-1vmnjpn-skeletonStyles-Skeleton"
+              >
+                ‌
+              </span>
+            </span>
+          </td>
+          <td
+            style="color: blue; font-size: 1.8rem;"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M17.75 7L14 3.25l-10 10V17h3.75l10-10zm2.96-2.96c.39-.39.39-1.02 0-1.41L18.37.29a.9959.9959 0 0 0-1.41 0L15 2.25 18.75 6l1.96-1.96z"
+              />
+              <path
+                d="M0 20h24v4H0z"
+                fill-opacity=".36"
+              />
+            </svg>
+          </td>
+          <td
+            style="color: red; font-size: 1.8rem;"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+              />
+            </svg>
+          </td>
+        </tr>
+        <tr>
+          <th
+            scope="row"
+          >
+            <span>
+              <span
+                class="react-loading-skeleton css-1vmnjpn-skeletonStyles-Skeleton"
+              >
+                ‌
+              </span>
+            </span>
+          </th>
+          <td>
+            <span>
+              <span
+                class="react-loading-skeleton css-1vmnjpn-skeletonStyles-Skeleton"
+              >
+                ‌
+              </span>
+            </span>
+          </td>
+          <td>
+            <span>
+              <span
+                class="react-loading-skeleton css-1vmnjpn-skeletonStyles-Skeleton"
+              >
+                ‌
+              </span>
+            </span>
+          </td>
+          <td>
+            <span>
+              <span
+                class="react-loading-skeleton css-1vmnjpn-skeletonStyles-Skeleton"
+              >
+                ‌
+              </span>
+            </span>
+          </td>
+          <td
+            style="color: blue; font-size: 1.8rem;"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M17.75 7L14 3.25l-10 10V17h3.75l10-10zm2.96-2.96c.39-.39.39-1.02 0-1.41L18.37.29a.9959.9959 0 0 0-1.41 0L15 2.25 18.75 6l1.96-1.96z"
+              />
+              <path
+                d="M0 20h24v4H0z"
+                fill-opacity=".36"
+              />
+            </svg>
+          </td>
+          <td
+            style="color: red; font-size: 1.8rem;"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+              />
+            </svg>
+          </td>
+        </tr>
+        <tr>
+          <th
+            scope="row"
+          >
+            <span>
+              <span
+                class="react-loading-skeleton css-1vmnjpn-skeletonStyles-Skeleton"
+              >
+                ‌
+              </span>
+            </span>
+          </th>
+          <td>
+            <span>
+              <span
+                class="react-loading-skeleton css-1vmnjpn-skeletonStyles-Skeleton"
+              >
+                ‌
+              </span>
+            </span>
+          </td>
+          <td>
+            <span>
+              <span
+                class="react-loading-skeleton css-1vmnjpn-skeletonStyles-Skeleton"
+              >
+                ‌
+              </span>
+            </span>
+          </td>
+          <td>
+            <span>
+              <span
+                class="react-loading-skeleton css-1vmnjpn-skeletonStyles-Skeleton"
+              >
+                ‌
+              </span>
+            </span>
+          </td>
+          <td
+            style="color: blue; font-size: 1.8rem;"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M17.75 7L14 3.25l-10 10V17h3.75l10-10zm2.96-2.96c.39-.39.39-1.02 0-1.41L18.37.29a.9959.9959 0 0 0-1.41 0L15 2.25 18.75 6l1.96-1.96z"
+              />
+              <path
+                d="M0 20h24v4H0z"
+                fill-opacity=".36"
+              />
+            </svg>
+          </td>
+          <td
+            style="color: red; font-size: 1.8rem;"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+              />
+            </svg>
+          </td>
+        </tr>
+        <tr>
+          <th
+            scope="row"
+          >
+            <span>
+              <span
+                class="react-loading-skeleton css-1vmnjpn-skeletonStyles-Skeleton"
+              >
+                ‌
+              </span>
+            </span>
+          </th>
+          <td>
+            <span>
+              <span
+                class="react-loading-skeleton css-1vmnjpn-skeletonStyles-Skeleton"
+              >
+                ‌
+              </span>
+            </span>
+          </td>
+          <td>
+            <span>
+              <span
+                class="react-loading-skeleton css-1vmnjpn-skeletonStyles-Skeleton"
+              >
+                ‌
+              </span>
+            </span>
+          </td>
+          <td>
+            <span>
+              <span
+                class="react-loading-skeleton css-1vmnjpn-skeletonStyles-Skeleton"
+              >
+                ‌
+              </span>
+            </span>
+          </td>
+          <td
+            style="color: blue; font-size: 1.8rem;"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M17.75 7L14 3.25l-10 10V17h3.75l10-10zm2.96-2.96c.39-.39.39-1.02 0-1.41L18.37.29a.9959.9959 0 0 0-1.41 0L15 2.25 18.75 6l1.96-1.96z"
+              />
+              <path
+                d="M0 20h24v4H0z"
+                fill-opacity=".36"
+              />
+            </svg>
+          </td>
+          <td
+            style="color: red; font-size: 1.8rem;"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+              />
+            </svg>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div />
+  </div>
+</DocumentFragment>
+`;

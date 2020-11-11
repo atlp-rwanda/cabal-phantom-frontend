@@ -6,10 +6,18 @@ export const loginAction = (data, history) => async (dispatch) => {
         dispatch(loginRequest())
 
         const res = await axios.post('https://phantom-cabal-staging.herokuapp.com/api/v1/auth/login', data)
-        const user=await res.data;
-        localStorage.setItem('token',user.Token)  
+        const user = await res.data;
+        localStorage.setItem('token', user.Token)
         localStorage.setItem('user-data', JSON.stringify(user.user));
-        history.push("/dashboard")
+
+        const role = JSON.parse(localStorage.getItem('user-data'));
+        const getRole = role.role
+
+        if (getRole == "admin") {
+            history.push("/admin")
+        }else{
+            history.push("/dashboard")
+        }
         
         return dispatch(loginSuccess(user));
     } catch (error) {
@@ -17,8 +25,8 @@ export const loginAction = (data, history) => async (dispatch) => {
             const errorMessage = await error.response.data.message;
             return dispatch(loginFails(errorMessage))
         }
-        else{
-            return dispatch(loginFails("Error, please check your connection and try again!"))
+        else {
+            dispatch(loginFails("Error, please check your connection and try again!"))
         }
     }
 
@@ -28,7 +36,7 @@ export const loginRequest = () => {
     return {
         type: LOGIN_REQUEST
     }
-    
+
 }
 
 export const loginSuccess = (data) => {

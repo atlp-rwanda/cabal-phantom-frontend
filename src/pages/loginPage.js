@@ -1,14 +1,14 @@
 import React, { Component } from 'react'
 import Login from '../components/loginForm';
-import Navigation from '../components/LandingPage/Navigation'
+import NavBar from '../components/Navigation'
 
-export default class loginPage extends Component {
-    render() {
-        return (
-            <div>
-                    <Navigation />
-                    <Login /> 
-            </div>
-        )
-    }
+const loginPage = () => {
+    return (
+        <div className="login__container">
+            <NavBar />
+            <Login />
+        </div>
+    )
 }
+
+export default loginPage

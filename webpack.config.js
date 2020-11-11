@@ -2,13 +2,14 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ip = require("ip");
 const webpack = require('webpack');
-const hostname = ip.address() || 'localhost';
+const hostname = 'localhost' || ip.address() ;
 
 module.exports = {
   mode: 'development',
   entry: './src/index',
   output: {
-    path: path.join(__dirname,'build'),
+    path: path.join
+      (__dirname, 'build'),
     publicPath: '/',
     filename: 'bundle.js'
   },
@@ -19,13 +20,15 @@ module.exports = {
     host: `${hostname}`,
     port: 5001,
     hot: true,
-    //watchContentBase: true,
     inline: true,
     watchOptions: {
         poll: true
     },
     compress: true,
-    open: true
+    open: true,
+    historyApiFallback: {
+      disableDotRule: true
+    }
   },
   performance: {
     hints: false
@@ -45,6 +48,11 @@ module.exports = {
       {
         test: /\.scss$/,
         use: ["style-loader", "css-loader","sass-loader"]
+      },
+      {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader'],
+        exclude: /\.module\.css$/
       },
       {
 				test: /\.(png|jpe?g|gif)$/i,

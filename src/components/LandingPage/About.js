@@ -16,7 +16,7 @@ function About() {
                 />
                <AboutCard
                     image={person}
-                    title="Why Phantom?"
+                    title="Why Phantom"
                     description="Phantom help you to reduce wasting time while you are waiting public transport."
                 />
             </div>

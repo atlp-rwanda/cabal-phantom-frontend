@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Switch, Route, Redirect } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import LoginPage  from "../pages/loginPage";
-import DashBoard from '../pages/dashboardPage'
 import LandingPage from '../pages/LandingPage';
+import  AdminDashboard from '../components/dashboard/Dashboard'
+import Dashboard from '../pages/dashboard'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default class App extends Component {
     render() {
@@ -11,8 +13,9 @@ export default class App extends Component {
                  <Router>
                      <Switch>
                         <Route path="/" exact component={LandingPage} />
-                        <Route path="/login" exact component={LoginPage} />
-                        <Route path="/dashboard" exact component={DashBoard} />              
+                        <Route path="/login" exact component={LoginPage} />      
+                        <Route path="/admin" exact component={AdminDashboard} />
+                        <Route path="/dashboard" exact component={Dashboard} />
                      </Switch>
                  </Router>                
             </div>
