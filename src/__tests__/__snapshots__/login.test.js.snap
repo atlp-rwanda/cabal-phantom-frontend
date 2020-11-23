@@ -4,37 +4,88 @@ exports[`LOGIN should render the component correctly 1`] = `
 <DocumentFragment>
   <div>
     <div
-      class="headers"
+      class="wrapper"
+      id="wrapper"
     >
-      <div
-        class="headers__logo"
+      <nav
+        id="nav_black"
       >
-        Phantom
-      </div>
-      <div
-        class="headers__menu"
-      >
-        <select
-          class="headers__menu__select"
-          name="Languages"
+        <div
+          class="menu-icon"
+          id="icon"
         >
-          <option
-            value="English"
+          <i
+            class="fa fa-bars fa-4x"
+          />
+        </div>
+        <a
+          href="/"
+        >
+          <div
+            class="logo"
           >
-            English
-          </option>
-          <option
-            value="French"
+            Phantom
+          </div>
+        </a>
+        <div
+          class="menu"
+        >
+          <ul
+            class="hide"
+            id="nav_ul"
           >
-            French
-          </option>
-          <option
-            value="Kinyarwanda"
-          >
-            Kinyarwanda
-          </option>
-        </select>
-      </div>
+            <li>
+              <a
+                class="header__menu__item"
+              >
+                About Us
+              </a>
+            </li>
+            <li>
+              <a
+                class="header__menu__item"
+              >
+                Contact Us
+              </a>
+            </li>
+            <li>
+              <a
+                class="header__menu__item"
+                duration="1000"
+                href="/login"
+              >
+                <i
+                  aria-hidden="true"
+                  class="fa fa-user"
+                />
+                Login
+              </a>
+            </li>
+            <li>
+              <select
+                class="header__menu__select"
+                name="Languages"
+              >
+                <option
+                  value="true"
+                >
+                  English
+                </option>
+                <option
+                  value="true"
+                >
+                  French
+                </option>
+                <option
+                  value="true"
+                >
+                  Kinyarwanda
+                </option>
+              </select>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </div>
     <div
       class="loginPage"
@@ -43,7 +94,7 @@ exports[`LOGIN should render the component correctly 1`] = `
         class="div2"
       >
         <a
-          href="https://cabal-frontend-staging.herokuapp.com"
+          href="/"
         >
           <div>
             <img
@@ -114,7 +165,7 @@ exports[`LOGIN should render the component correctly 1`] = `
             type="password"
           />
           <a
-            href="https://cabal-frontend-staging.herokuapp.com/resetPassword"
+            href="/resetPassword"
           >
             <div>
               <label
@@ -126,6 +177,7 @@ exports[`LOGIN should render the component correctly 1`] = `
           </a>
           <button
             aria-label="login"
+            class="button"
             type="submit"
             value="LOGIN"
           >

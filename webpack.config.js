@@ -2,10 +2,10 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ip = require("ip");
 const webpack = require('webpack');
-const hostname = 'localhost' || ip.address();
+const hostname = ip.address() || 'localhost';
 
 module.exports = {
-   mode: 'development',
+  mode: 'development',
   entry: './src/index',
   output: {
     path: path.join(__dirname,'build'),
@@ -18,7 +18,7 @@ module.exports = {
     publicPath: '/',
     host: `${hostname}`,
     port: 5001,
-    //hot: true,
+    hot: true,
     //watchContentBase: true,
     inline: true,
     watchOptions: {
@@ -26,6 +26,12 @@ module.exports = {
     },
     compress: true,
     open: true
+  },
+  performance: {
+    hints: false
+  },
+  resolve: {
+    extensions: ['.js', '.jsx']
   },
   module : {
     rules: [

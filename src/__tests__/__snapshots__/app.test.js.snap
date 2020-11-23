@@ -2,20 +2,316 @@
 
 exports[`APP should render the component 1`] = `
 <DocumentFragment>
-  <div
-    class="header"
-  >
-    <div
-      class="header__title"
-    >
-      Phantom App
-    </div>
-    <div
-      class="loading"
-    >
+  <div>
+    <div>
       <div
-        class="loader"
-      />
+        class="wrapper"
+        id="wrapper"
+      >
+        <nav
+          id="nav_black"
+        >
+          <div
+            class="menu-icon"
+            id="icon"
+          >
+            <i
+              class="fa fa-bars fa-4x"
+            />
+          </div>
+          <a
+            href="/"
+          >
+            <div
+              class="logo"
+            >
+              Phantom
+            </div>
+          </a>
+          <div
+            class="menu"
+          >
+            <ul
+              class="hide"
+              id="nav_ul"
+            >
+              <li>
+                <a
+                  class="header__menu__item"
+                >
+                  About Us
+                </a>
+              </li>
+              <li>
+                <a
+                  class="header__menu__item"
+                >
+                  Contact Us
+                </a>
+              </li>
+              <li>
+                <a
+                  class="header__menu__item"
+                  duration="1000"
+                  href="/login"
+                >
+                  <i
+                    aria-hidden="true"
+                    class="fa fa-user"
+                  />
+                  Login
+                </a>
+              </li>
+              <li>
+                <select
+                  class="header__menu__select"
+                  name="Languages"
+                >
+                  <option
+                    value="true"
+                  >
+                    English
+                  </option>
+                  <option
+                    value="true"
+                  >
+                    French
+                  </option>
+                  <option
+                    value="true"
+                  >
+                    Kinyarwanda
+                  </option>
+                </select>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div
+        class="frontpage"
+        id=""
+      >
+        <div
+          class="frontpage__text"
+        >
+          <h1>
+            Welcome To Phantom
+          </h1>
+          <h5>
+            use Phantom to make your travel easier by checking the status of bus
+          </h5>
+        </div>
+        <form
+          class="frontpage__input"
+        >
+          <input
+            placeholder="Where are you located now"
+            type="search"
+            value=""
+          />
+          <input
+            placeholder="Where are you planning to go"
+            type="search"
+            value=""
+          />
+          <button
+            type="submit"
+          >
+            <i
+              class="fa fa-search"
+            />
+             Search
+          </button>
+        </form>
+      </div>
+      <div
+        class="about"
+        id="About"
+      >
+        <h1
+          class="about__title"
+        >
+          About Us
+        </h1>
+        <div
+          class="about__card"
+        >
+          <div
+            class="about__card__template"
+          >
+            <img
+              alt=""
+              src="test-file-stub"
+            />
+            <h2>
+              What is Phantom
+            </h2>
+            <p>
+              Phantom is website that provide you easier way to find public bus in Rwanda
+            </p>
+          </div>
+          <div
+            class="about__card__template"
+          >
+            <img
+              alt=""
+              src="test-file-stub"
+            />
+            <h2>
+              Why Phantom?
+            </h2>
+            <p>
+              Phantom help you to reduce wasting time while you are waiting public transport.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="feedback"
+        id="feedback"
+      >
+        <h1>
+          Provide us a Feedback
+        </h1>
+        <form
+          action=""
+          class="feedback__inputs"
+        >
+          <input
+            id="name"
+            placeholder="Your name"
+            type="text"
+          />
+          <input
+            id="email"
+            placeholder="Your email"
+            type="email"
+          />
+          <br />
+          <textarea
+            cols="40"
+            id=""
+            name="feedback"
+            placeholder="Your feedback"
+            rows="7"
+          />
+          <button
+            value="submit"
+          >
+            Submit
+          </button>
+        </form>
+      </div>
+      <div
+        class="footer"
+      >
+        <div
+          class="footer__header"
+        >
+          <div
+            class="footer__about"
+          >
+            <h2>
+              About Us
+            </h2>
+            <p>
+              Phantom is website application that help to track public buses
+            </p>
+          </div>
+          <div
+            class="footer__contact"
+          >
+            <h2>
+              Our Contact
+            </h2>
+            <h5
+              class="fa fa-envelope"
+            >
+              <a
+                href=""
+              >
+                hello@phantom.com
+              </a>
+            </h5>
+            <br />
+            <br />
+            <h5
+              class="fa fa-phone"
+            >
+              <a
+                href="tel:0788732123"
+              >
+                +250788732123
+              </a>
+            </h5>
+            <h5
+              class="fa fa-map-marker"
+            >
+              <a
+                href=""
+              >
+                KK 107 Ave
+              </a>
+            </h5>
+          </div>
+          <div
+            class="footer__social"
+          >
+            <h2>
+              Our Social Media
+            </h2>
+            <span>
+              <a
+                href=""
+              >
+                <i
+                  class="fa fa-facebook"
+                />
+              </a>
+            </span>
+             
+            <span>
+              <a
+                href=""
+              >
+                <i
+                  class="fa fa-twitter"
+                />
+              </a>
+            </span>
+             
+            <span>
+              <a
+                href=""
+              >
+                <i
+                  class="fa fa-instagram"
+                />
+              </a>
+            </span>
+             
+            <span>
+              <a
+                href=""
+              >
+                <i
+                  class="fa fa-linkedin"
+                />
+              </a>
+            </span>
+             
+          </div>
+        </div>
+        <hr />
+        <div
+          class="footer__footer"
+        >
+          <p>
+            Copyright © 2020 - 2020 Phantom. All rights reserved
+          </p>
+        </div>
+      </div>
     </div>
   </div>
 </DocumentFragment>

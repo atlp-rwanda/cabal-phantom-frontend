@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
+import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import { loginAction } from '../redux/actions/loginAction';
 import { withRouter } from 'react-router-dom'
-import '../assets/style/login.scss'
+import '../assets/styles/login.scss';
 
 class LoginForm extends Component {
   constructor(props) {
@@ -63,7 +64,7 @@ class LoginForm extends Component {
     return (
         <div className='loginPage'>
             <div className ='div2'>
-              <a href="https://cabal-frontend-staging.herokuapp.com"><div><img className="cancel" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Multiplication_Sign.svg/1024px-Multiplication_Sign.svg.png"/></div></a><br/><br/>
+              <Link to="/"><div><img className="cancel" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Multiplication_Sign.svg/1024px-Multiplication_Sign.svg.png"/></div></Link><br/><br/>
                 <p style={{color: "green", display: this.props.loginState.loading}}>Loading..., please wait!</p> <br/> <br/>
                 <form id="form" onSubmit={(e) => this.onSubmit(e)}>
                     <h1>Login</h1>
@@ -90,8 +91,8 @@ class LoginForm extends Component {
                         placeholder="password"
                         onChange={(e) => this.change(e)}
                     />
-                    <a href="https://cabal-frontend-staging.herokuapp.com/resetPassword"><div><label  style={{color: "Blue"}}>Forgot password?</label></div></a> 
-                    <button type="submit" value="LOGIN" aria-label="login" ><h2>Login</h2></button><br/> <br/>
+                    <Link to="/resetPassword"><div><label  style={{color: "Blue"}}>Forgot password?</label></div></Link> 
+                    <button type="submit" value="LOGIN" aria-label="login" className="button"><h2>Login</h2></button><br/> <br/>
                 </form>
             </div>
       </div>

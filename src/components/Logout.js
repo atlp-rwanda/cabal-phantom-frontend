@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { connect } from "react-redux"
 import { logout } from '../redux/actions/logoutAction'
 import { withRouter } from 'react-router-dom'
-import "../assets/style/dashboard.scss"
+import "../assets/styles/dashboard.scss"
 
 
  class Logout extends Component {

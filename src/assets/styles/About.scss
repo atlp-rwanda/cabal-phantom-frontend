@@ -1,0 +1,72 @@
+.about{
+    // width: 120%;
+    background-color: rgba(12, 143, 151, 0.1);
+    padding-top: 5%;
+}
+
+.about__title{
+    font-size: 5rem;
+    text-align: center;
+    padding: 2rem 0;
+    font-family: 'Oswald';
+    letter-spacing: .4rem;
+}
+
+.about__card{
+    display: flex;
+    justify-content: space-around;
+    padding: 3%;
+}
+
+.about__card__template{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    text-align: center;
+    padding: 7rem 3rem;
+    flex: 1;
+    background-color: #fff;
+    margin: auto 8%;
+}
+
+.about__card__template h2{
+    font-size: 3rem;
+    margin: 2.5rem 0;
+}
+
+.about__card__template p{
+    font-size: 1.8rem;
+    flex: 0.5;
+    line-height: 1.5;
+}
+
+.about__card__template:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+@media only screen and (max-width: 768px) {
+    .about__card__template{
+        padding: 1rem 3rem;
+    }
+}
+// @media only screen and (max-width:320px) {
+//      .about{
+//         width: 120%;
+//         height: 100vh;
+//     }   
+// }
+@media only screen and (max-width: 600px) {
+    .about{
+        // width: 120%;
+        height: 150vh;
+        .about__title{
+            font-size: 4rem;
+        }
+        .about__card{
+            float: none;
+            display: block;
+            .about__card__template{ 
+                margin: 2rem;
+                padding-bottom: 2rem;
+            }
+        }
+    }
+}

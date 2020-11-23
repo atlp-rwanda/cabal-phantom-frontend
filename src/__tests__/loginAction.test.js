@@ -1,43 +1,70 @@
-import React from "react";
-import { loginAction, loginSuccess, loginFails,loginRequest } from "../redux/actions/loginAction";
-import configureStore from 'redux-mock-store';
+import mockAxios from 'axios';
+import configureMockStore from 'redux-mock-store';
+import thunk from 'redux-thunk';
+import { cleanup } from '@testing-library/react';
+import { loginAction } from '../redux/actions/loginAction';
+import {
+  LOGIN_REQUEST,
+  LOGIN_SUCCESS,
+  LOGIN_FAIL
+} from '../redux/types/loginTypes';
+const createMockStore = configureMockStore([thunk]);
+const store = createMockStore({
+  login: {},
+});
+const historyMock = { push: jest.fn() };
 
-const mockStore = configureStore();
-const storeActions = mockStore();
 
-describe("Login Action",()=>{
-  beforeEach(() => {storeActions.clearActions();});
-it('Dispatches the correct action and payload during a sucessful login', () => {
-        const expectedActions = [
-          {
-            'payload': 1,
-            "type": "LOGIN_SUCCESS",
-          },
-        ];
-        storeActions. dispatch(loginSuccess(1));
-        expect(storeActions.getActions()).toEqual(expectedActions);
-      });
+describe('ACTIONS', () => {
+  afterEach(cleanup);
+  it('should login user successfully', async () => {
+    mockAxios.post.mockResolvedValue({
+      status: 200,
+      data: { status:200, email: 'admin@phantom.com',password:"admin" },
+      message: 'message',
+    });
+    const results = await store.dispatch(
+      await loginAction({ email: 'admin@phantom.com', password: 'admin' },historyMock )
+    );
 
-      it('Dispatches the correct action and payload during a failed login', () => {
-        const expectedActions = [
-          {
-            'payload': 2,
-            "type": "LOGIN_FAIL"
-          },
-        ];
-    
-        storeActions. dispatch(loginFails(2))
-        expect(storeActions.getActions()).toEqual(expectedActions);
-      });
+    expect(mockAxios.post).toHaveBeenCalledTimes(1);
+    expect(
+      mockAxios.post
+    ).toHaveBeenCalledWith(
+      'https://phantom-cabal-staging.herokuapp.com/api/v1/auth/login',
+      { email: 'admin@phantom.com', password: 'admin' }
+    );
+    expect(results.type).toEqual(LOGIN_SUCCESS);
 
-      it('Dispatches the correct action and payload during a pending login request', () => {
-        const expectedActions = [
-          {
-            "type": "LOGIN_REQUEST",
-          },
-        ];
-        
-        storeActions.dispatch(loginRequest())
-        expect(storeActions.getActions()).toEqual(expectedActions);
-      });
-})
+    expect(results.payload.status).toEqual(200);
+  });
+  it('should not login user successfully', async () => {
+    mockAxios.post.mockRejectedValue({
+      data: {
+        status: 400,
+        error: 'fail',
+      },
+    });
+
+    const results = await store.dispatch(
+      await loginAction({ email: 'admin@gmail', password: 'admin' })
+    );
+
+    expect(results.type).toEqual(LOGIN_FAIL);
+  });
+
+  it('should not login user successfully', async () => {
+    mockAxios.post.mockRejectedValue({
+      response: {
+        data: {
+          message: 'error',
+        },
+      },
+    });
+
+    const results = await store.dispatch(
+      await loginAction({ email: 'admin@gmail', password: 'admin' })
+    );
+     expect(results.type).toEqual(LOGIN_FAIL);
+  });
+});

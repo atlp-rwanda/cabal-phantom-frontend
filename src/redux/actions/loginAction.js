@@ -11,14 +11,14 @@ export const loginAction = (data, history) => async (dispatch) => {
         localStorage.setItem('user-data', JSON.stringify(user.user));
         history.push("/dashboard")
         
-        dispatch(loginSuccess(user));
+        return dispatch(loginSuccess(user));
     } catch (error) {
         if (error.response) {
             const errorMessage = await error.response.data.message;
-            dispatch(loginFails(errorMessage))
+            return dispatch(loginFails(errorMessage))
         }
         else{
-            dispatch(loginFails("Error, please check your connection and try again!"))
+            return dispatch(loginFails("Error, please check your connection and try again!"))
         }
     }
 

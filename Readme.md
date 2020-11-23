@@ -1,10 +1,9 @@
+# cabal-phatom-frontend
+
 [![Build Status](https://travis-ci.org/atlp-rwanda/cabal-phantom-frontend.svg?branch=develop)](https://travis-ci.org/atlp-rwanda/cabal-phantom-frontend)
 [![Maintainability](https://api.codeclimate.com/v1/badges/71e00397158881e1640f/maintainability)](https://codeclimate.com/github/atlp-rwanda/cabal-phantom-frontend/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/71e00397158881e1640f/test_coverage)](https://codeclimate.com/github/atlp-rwanda/cabal-phantom-frontend/test_coverage)
 [![Coverage Status](https://coveralls.io/repos/github/atlp-rwanda/cabal-phantom-frontend/badge.svg?branch=develop)](https://coveralls.io/github/atlp-rwanda/cabal-phantom-frontend?branch=develop)
-
-
-#                                              cabal-phatom-frontend
 
 
 # Description ✍︎
@@ -21,9 +20,6 @@ An interactive interface for phantom users in bus finding
 - Webpack
 - Jest
 - Babel
----
-
-- Install NodeJS
 
 # Setting up and running the application 🔧
 
@@ -56,3 +52,17 @@ Running the tests
 # Deployment 🚀
 
 [Heroku](https://cabal-frontend-staging.herokuapp.com/)
+
+---
+
+# Team members
+ 1. [Emmanuel NKUBITO ](https://github.com/Nkbtemmy/)
+ 2. [Xavier NCUTI](https://github.com/ncutixavier)
+ 3. [Happiness KARIGIRWA](https://github.com/karigirwa)
+ 4. [Gerard NIYIRAGIRA](https://github.com/Niyiragira)
+
+ # Manager 
+  Samuel NISHIMWE
+
+# TTL
+  Blaise IZABAYO

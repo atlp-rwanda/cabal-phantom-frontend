@@ -1,6 +1,6 @@
 import React from 'react'
 import { render } from "@testing-library/react"
-import App from '../components/LoadingPage'
+import App from '../routes/App'
 
 const AppComponent = () => {
   return render(<App />)

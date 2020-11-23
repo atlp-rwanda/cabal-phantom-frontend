@@ -1,0 +1,86 @@
+ .feedback{
+  // width: 120%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: rgba(26, 186, 197, 0.04);
+  h1{
+    font-family: "Oswald";
+    font-style: normal;
+    color: rgb(14, 13, 13);
+    font-weight: bold;
+    font-size: 5rem;
+    line-height: 2;
+    letter-spacing: 0.3rem;
+  }
+}
+
+.feedback__inputs {
+  input[type=email],input[type=text] {
+      width: 80%;
+      padding: 15px;
+      margin: 2rem 8rem auto ;
+      display: inline-block;
+      border: none;
+      background: #FFFFFF;
+      box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+      border-radius: 10px;
+  }
+  textarea {
+      width: 80%;
+      padding: 15px;
+      margin: 2rem 8rem auto ;
+      display: inline-block;
+      background: #FFFFFF;
+      box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+      border-radius: 10px;
+      border: 0px;
+  }
+  button {
+      width: 84%;
+      padding: 15px;
+      margin: 2rem 8rem auto ;
+      display: inline-block;
+      border-radius: 0.6rem;
+      outline: none;
+      border: none;
+      color: #fff;
+      background-color: #0c8f97;
+      padding: 15px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .feedback{
+    h1{
+      font-size: 3rem;
+    }
+  }
+  .feedback__inputs{
+    input[type=email],input[type=text],textarea,button{
+    margin: 2rem 3rem auto ;
+    }
+  }
+
+}
+// @media screen and (max-width: 1440px) {
+
+// }
+// @media screen and (max-width: 1024px) {
+
+// }
+// @media screen and (max-width: 768px) {
+//   .feedback{
+//     width: 120%;
+//   }
+// }
+// @media screen and (max-width: 425px) {
+
+// }
+// @media screen and (max-width: 375px) {
+
+// }
+// @media screen and (max-width: 320px) {
+
+// }

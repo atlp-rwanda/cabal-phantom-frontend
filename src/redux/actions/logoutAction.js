@@ -3,17 +3,17 @@ import axios from 'axios'
 
 export const logout = (history) => async(dispatch) => {
     try {
-        dispatch(logoutRequest());
+       dispatch(logoutRequest());
         // console.log('Request')
-        const res = await axios.get('https://phantom-caba-ft-logout--az7r73.herokuapp.com/api/v1/auth/logout')
+        const res = await axios.get('https://phantom-cabal-staging.herokuapp.com/api-docs//api/v1/auth/logout')
         localStorage.removeItem('token')
         history.push("/login")
         dispatch(logoutSuccess(res))
-        console.log('Response', res)
+       // console.log('Response', res)
       
     } catch (error) {
         console.log(error)
-        dispatch(logoutError(error))
+        return dispatch(logoutError(error))
     }    
 };
     

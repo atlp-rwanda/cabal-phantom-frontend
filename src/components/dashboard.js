@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import '../assets/style/dashboard.scss'
+import '../assets/Styles/Dashboard.scss'
 
 export default class dashboard extends Component {
      
