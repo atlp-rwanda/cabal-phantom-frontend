@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import '../assets/style/App.scss';
-
 class LoadingPage extends Component {
     render() {
         return (
@@ -13,5 +12,4 @@ class LoadingPage extends Component {
         )
     }
 }
-
 export default LoadingPage

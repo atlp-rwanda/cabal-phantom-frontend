@@ -1,19 +1,18 @@
-import React, { Component } from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import LoadingPage from './LoadingPage';
-import TestRedux from './Counter';
+import React, { Component } from 'react'
+import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import LoadingPage from './LoadingPage'
 
 export default class App extends Component {
     render() {
         return (
-            <div className="App">
+            <div>
                 <Router>
                     <Switch>
-                        <Route exact path="/" component={LoadingPage} />
-                        <Route exact path="/TestRedux" component={TestRedux} />
+                        <Route path="/" exact component={LoadingPage} />
                     </Switch>
                 </Router>
             </div>
         )
     }
 }
+
