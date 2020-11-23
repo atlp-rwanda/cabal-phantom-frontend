@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
+import { increment, decrement } from '../redux/actions/testAction'
+import { connect } from "react-redux";
+import AddIcon from '@material-ui/icons/Add';
+import RemoveIcon from '@material-ui/icons/Remove';
 import '../assets/style/App.scss';
 
-export default class LoadingPage extends Component {
+class LoadingPage extends Component {
     render() {
         return (
             <div className="header">
@@ -13,3 +17,5 @@ export default class LoadingPage extends Component {
         )
     }
 }
+
+export default LoadingPage

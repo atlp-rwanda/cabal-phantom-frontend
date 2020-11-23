@@ -1,5 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './components/App.jsx'
+import { BrowserRouter as Router } from "react-router-dom";
+import App from './components/App'
+import { Provider } from 'react-redux'
+import store from './redux/store'
 
-ReactDOM.render(<App />, document.getElementById('app'));
+ReactDOM.render(
+    <Router>
+        <Provider store={store}>
+            <App />
+        </Provider>
+    </Router>,
+    document.getElementById('app')
+);
