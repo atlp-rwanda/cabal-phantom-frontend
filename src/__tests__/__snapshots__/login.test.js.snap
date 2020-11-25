@@ -1,0 +1,144 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LOGIN should render the component correctly 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="headers"
+    >
+      <div
+        class="headers__logo"
+      >
+        Phantom
+      </div>
+      <div
+        class="headers__menu"
+      >
+        <select
+          class="headers__menu__select"
+          name="Languages"
+        >
+          <option
+            value="English"
+          >
+            English
+          </option>
+          <option
+            value="French"
+          >
+            French
+          </option>
+          <option
+            value="Kinyarwanda"
+          >
+            Kinyarwanda
+          </option>
+        </select>
+      </div>
+    </div>
+    <div
+      class="loginPage"
+    >
+      <div
+        class="div2"
+      >
+        <a
+          href="https://cabal-frontend-staging.herokuapp.com"
+        >
+          <div>
+            <img
+              class="cancel"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Multiplication_Sign.svg/1024px-Multiplication_Sign.svg.png"
+            />
+          </div>
+        </a>
+        <br />
+        <br />
+        <p
+          style="color: green; display: none;"
+        >
+          Loading..., please wait!
+        </p>
+         
+        <br />
+         
+        <br />
+        <form
+          id="form"
+        >
+          <h1>
+            Login
+          </h1>
+          <span
+            style="color: red;"
+          />
+          <br />
+           
+          <br />
+          <label
+            for=""
+            id="email"
+          >
+            Email
+          </label>
+          <br />
+          <span
+            style="color: red;"
+          />
+          <input
+            aria-label="email"
+            id="aria-1"
+            name="email"
+            placeholder="email"
+            type="email"
+          />
+          <br />
+           
+          <br />
+          <br />
+          <label
+            for=""
+            id="password"
+          >
+            Password
+          </label>
+          <br />
+          <span
+            style="color: red;"
+          />
+          <input
+            aria-label="password"
+            id="aria-2"
+            name="password"
+            placeholder="password"
+            type="password"
+          />
+          <a
+            href="https://cabal-frontend-staging.herokuapp.com/resetPassword"
+          >
+            <div>
+              <label
+                style="color: Blue;"
+              >
+                Forgot password?
+              </label>
+            </div>
+          </a>
+          <button
+            aria-label="login"
+            type="submit"
+            value="LOGIN"
+          >
+            <h2>
+              Login
+            </h2>
+          </button>
+          <br />
+           
+          <br />
+        </form>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

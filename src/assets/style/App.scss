@@ -1,52 +1,50 @@
 *{
-    margin: 0;
-    padding: 0;
-    font-family: "Open Sans";
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans";
 }
 
 html {
-    font-size: 10px;
+  font-size: 10px;
 }
 
 .header{
-    background-color: rgb(89, 203, 223);
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  background-color: rgb(89, 203, 223);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .header__title {
-    font-size: 5rem;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 3rem 0;
+  font-size: 5rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem 0;
 }
 
 /* *******************Loading Spinner********************* */
 .loading {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  border-top: 2px solid #000;
+  animation: spinner 1s infinite linear;
+}
+
+@keyframes spinner {
+  from {
+    transform: rotate(0deg);
   }
-  
-  .loader {
-    width: 20rem;
-    height: 20rem;
-    border-radius: 50%;
-    border-top: 2px solid #000;
-    animation: spinner 1s infinite linear;
+  to {
+    transform: rotate(360deg);
   }
-  
-  @keyframes spinner {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
+}

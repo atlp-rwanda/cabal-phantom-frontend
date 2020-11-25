@@ -1,8 +1,4 @@
 import React, { Component } from 'react';
-import { increment, decrement } from '../redux/actions/testAction'
-import { connect } from "react-redux";
-import AddIcon from '@material-ui/icons/Add';
-import RemoveIcon from '@material-ui/icons/Remove';
 import '../assets/style/App.scss';
 
 class LoadingPage extends Component {

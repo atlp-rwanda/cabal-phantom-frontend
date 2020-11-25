@@ -2,7 +2,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ip = require("ip");
 const webpack = require('webpack');
-const hostname = ip.address() || 'localhost';
+const hostname = 'localhost' || ip.address();
 
 module.exports = {
    mode: 'development',
@@ -13,6 +13,7 @@ module.exports = {
     filename: 'bundle.js'
   },
   devServer: {
+    historyApiFallback: true,
     contentBase: path.resolve(__dirname, './build'),
     publicPath: '/',
     host: `${hostname}`,
@@ -20,13 +21,11 @@ module.exports = {
     //hot: true,
     //watchContentBase: true,
     inline: true,
-    contentBase: './',
     watchOptions: {
         poll: true
     },
     compress: true,
-    open: true,
-    historyApiFallback: true
+    open: true
   },
   module : {
     rules: [

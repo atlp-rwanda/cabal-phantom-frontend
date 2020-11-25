@@ -3,23 +3,19 @@
 exports[`APP should render the component 1`] = `
 <DocumentFragment>
   <div
-    class="App"
+    class="header"
   >
     <div
-      class="header"
+      class="header__title"
+    >
+      Phantom App
+    </div>
+    <div
+      class="loading"
     >
       <div
-        class="header__title"
-      >
-        Phantom App
-      </div>
-      <div
-        class="loading"
-      >
-        <div
-          class="loader"
-        />
-      </div>
+        class="loader"
+      />
     </div>
   </div>
 </DocumentFragment>
