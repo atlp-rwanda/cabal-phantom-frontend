@@ -4,7 +4,7 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/71e00397158881e1640f/maintainability)](https://codeclimate.com/github/atlp-rwanda/cabal-phantom-frontend/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/71e00397158881e1640f/test_coverage)](https://codeclimate.com/github/atlp-rwanda/cabal-phantom-frontend/test_coverage)
 [![Coverage Status](https://coveralls.io/repos/github/atlp-rwanda/cabal-phantom-frontend/badge.svg?branch=develop)](https://coveralls.io/github/atlp-rwanda/cabal-phantom-frontend?branch=develop)
-
+![example workflow name](https://github.com/atlp-rwanda/cabal-phantom-frontend/workflows/cabal-frontend-CI/badge.svg)
 
 # Description ✍︎
 
