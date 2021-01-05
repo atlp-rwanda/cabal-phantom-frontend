@@ -36,7 +36,7 @@ exports[`TopBar component Should render add user component properly 1`] = `
               class="ml-4"
             >
               <h2
-                class="font-weight-bold card-title"
+                class="card-title"
               >
                 Visitors
               </h2>
@@ -85,7 +85,7 @@ exports[`TopBar component Should render add user component properly 1`] = `
               class="ml-4"
             >
               <h2
-                class="font-weight-bold card-title"
+                class="card-title"
               >
                 Buses
               </h2>
@@ -134,7 +134,7 @@ exports[`TopBar component Should render add user component properly 1`] = `
               class="ml-4"
             >
               <h2
-                class="font-weight-bold card-title"
+                class="card-title"
               >
                 Routes
               </h2>
@@ -183,7 +183,7 @@ exports[`TopBar component Should render add user component properly 1`] = `
               class="ml-4"
             >
               <h2
-                class="font-weight-bold card-title"
+                class="card-title"
               >
                 Users
               </h2>

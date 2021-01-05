@@ -28,7 +28,7 @@ export default class Footer extends Component {
                     </div>
                 </div>
                 <div className="footer__footer">
-                    <p>Copyright &copy; {this.state.curTime} Phantom. All rights reserved</p>
+                    <p>Copyright &copy;2020 - {this.state.curTime} Phantom. All rights reserved</p>
                 </div>
             </div>
         )

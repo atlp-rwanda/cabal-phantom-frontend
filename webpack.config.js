@@ -2,7 +2,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ip = require("ip");
 const webpack = require('webpack');
-const hostname = 'localhost' || ip.address() ;
+const hostname = ip.address() || 'localhost';
 
 module.exports = {
   mode: 'development',
@@ -62,7 +62,20 @@ module.exports = {
 						loader: 'file-loader'
 					}
 				]
-			}
+			},{
+        test: /\.(png|svg|jpe?g|gif)$/,
+        include: /images/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[ext]',
+              outputPath: 'images/',
+              publicPath: 'images/'
+            }
+          }
+        ]
+      }
     ]
   },
   plugins: [

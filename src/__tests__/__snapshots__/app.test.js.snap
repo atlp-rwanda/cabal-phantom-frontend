@@ -119,14 +119,18 @@ exports[`APP should render the component 1`] = `
             type="search"
             value=""
           />
-          <button
-            type="submit"
+          <a
+            href="/maps"
           >
-            <i
-              class="fa fa-search"
-            />
-             Search
-          </button>
+            <button
+              type="submit"
+            >
+              <i
+                class="fa fa-search"
+              />
+               Search
+            </button>
+          </a>
         </form>
       </div>
       <div
@@ -307,7 +311,7 @@ exports[`APP should render the component 1`] = `
           class="footer__footer"
         >
           <p>
-            Copyright © 2021 Phantom. All rights reserved
+            Copyright ©2020 - 2021 Phantom. All rights reserved
           </p>
         </div>
       </div>

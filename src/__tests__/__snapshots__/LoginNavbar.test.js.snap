@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navigation component Should render navigation snapshot component properly 1`] = `
+<DocumentFragment>
+  <div
+    class="headers"
+    style="background-color: transparent;"
+  >
+    <a
+      href="/"
+    >
+      <div
+        class="headers__logo"
+      >
+        Phantom
+      </div>
+    </a>
+    <div
+      class="headers__menu"
+    >
+      <select
+        class="headers__menu__select"
+        name="Languages"
+      >
+        <option
+          value="English"
+        >
+          English
+        </option>
+        <option
+          value="French"
+        >
+          French
+        </option>
+        <option
+          value="Kinyarwanda"
+        >
+          Kinyarwanda
+        </option>
+      </select>
+    </div>
+  </div>
+</DocumentFragment>
+`;

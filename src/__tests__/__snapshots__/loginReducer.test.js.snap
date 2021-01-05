@@ -7,12 +7,17 @@ exports[`LOGIN - REDUCER should render the component correctly 1`] = `
   >
     <div
       class="headers"
+      style="background-color: transparent;"
     >
-      <div
-        class="headers__logo"
+      <a
+        href="/"
       >
-        Phantom
-      </div>
+        <div
+          class="headers__logo"
+        >
+          Phantom
+        </div>
+      </a>
       <div
         class="headers__menu"
       >

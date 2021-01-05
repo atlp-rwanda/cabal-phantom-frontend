@@ -1,0 +1,158 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Map Page component Should render map page snapshot properly 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="headers"
+      style="background-color: transparent;"
+    >
+      <a
+        href="/"
+      >
+        <div
+          class="headers__logo"
+        >
+          Phantom
+        </div>
+      </a>
+      <div
+        class="headers__menu"
+      >
+        <select
+          class="headers__menu__select"
+          name="Languages"
+        >
+          <option
+            value="English"
+          >
+            English
+          </option>
+          <option
+            value="French"
+          >
+            French
+          </option>
+          <option
+            value="Kinyarwanda"
+          >
+            Kinyarwanda
+          </option>
+        </select>
+      </div>
+    </div>
+    <div
+      class="route_title_container"
+    >
+      <h1>
+        Kimironko - Nyabugogo
+      </h1>
+    </div>
+    <div>
+      Loading...
+    </div>
+    <div
+      class="footer"
+    >
+      <div
+        class="footer__header"
+      >
+        <div
+          class="footer__about"
+        >
+          <h2>
+            About Us
+          </h2>
+          <p>
+            Phantom is website application that help to track public buses
+          </p>
+        </div>
+        <div
+          class="footer__contact"
+        >
+          <h2>
+            Our Contact
+          </h2>
+          <h5
+            class="fa fa-envelope"
+          >
+            <a
+              href="mailto:phantomcabal2@gmail.com"
+            >
+              hello@phantom.com
+            </a>
+          </h5>
+          <h5
+            class="fa fa-phone"
+          >
+            <a
+              href="tel:0788732123"
+            >
+              +250788732123
+            </a>
+          </h5>
+          <h5
+            class="fa fa-map-marker"
+          >
+            <a
+              href=""
+            >
+              KK 107 Ave
+            </a>
+          </h5>
+        </div>
+        <div
+          class="footer__social"
+        >
+          <h2>
+            Our Social Media
+          </h2>
+          <span>
+            <a
+              href=""
+            >
+              <i
+                class="fa fa-facebook"
+              />
+            </a>
+          </span>
+          <span>
+            <a
+              href=""
+            >
+              <i
+                class="fa fa-twitter"
+              />
+            </a>
+          </span>
+          <span>
+            <a
+              href=""
+            >
+              <i
+                class="fa fa-instagram"
+              />
+            </a>
+          </span>
+          <span>
+            <a
+              href=""
+            >
+              <i
+                class="fa fa-linkedin"
+              />
+            </a>
+          </span>
+        </div>
+      </div>
+      <div
+        class="footer__footer"
+      >
+        <p>
+          Copyright ©2020 - 2021 Phantom. All rights reserved
+        </p>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

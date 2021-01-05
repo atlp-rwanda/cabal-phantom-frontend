@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { BrowserRouter as Router,Link,Link as Links} from "react-router-dom";
 import './../../assets/styles/FrontPage.scss'
 
 export default class FontPage extends Component {
@@ -19,7 +20,7 @@ export default class FontPage extends Component {
                     <form className="frontpage__input">
                         <input type="search" onChange={(e) => this.setState({origin:e.target.value})} value={this.state.origin} placeholder="Where are you located now"/>
                         <input type="search" onChange={(e) => this.setState({destination:e.target.value})} value={this.state.destination} placeholder="Where are you planning to go"/>
-                        <button type="submit" ><i className="fa fa-search"></i> Search</button>
+                        <Link to="/maps"><button type="submit" ><i className="fa fa-search"></i> Search</button></Link>
                     </form>
                 </div>
         )

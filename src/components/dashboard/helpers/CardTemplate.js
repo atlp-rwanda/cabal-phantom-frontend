@@ -13,7 +13,7 @@ const CardTemplate = ({ Icon, Title, Counter, Type }) => {
                 <div className="d-flex align-items-start">
                     <div className="icon"><Icon style={{ fontSize: "3rem" }} /></div>
                     <div className="ml-4">
-                        <CardTitle tag="h2" className="font-weight-bold">{Title}</CardTitle>
+                        <CardTitle tag="h2">{Title}</CardTitle>
                         <CardText style={cardTextStyles}>
                             <span>{Counter}</span>
                             <span className="ml-5">{Type}</span>

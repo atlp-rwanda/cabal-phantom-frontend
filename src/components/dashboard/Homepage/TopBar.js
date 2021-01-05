@@ -19,7 +19,7 @@ const TopBar = () => {
                 </InputGroup>
             </form>
             <div className="">
-                <Link to= "/"><IconButton outline Icon={<HomeIcon />} name={"Home"} className="ml-5" href="/admin"/></Link>
+                <Link to= "/admin"><IconButton outline Icon={<HomeIcon />} name={"Home"} className="ml-5" href="/admin"/></Link>
                 <IconButton color="info" className="ml-5" Icon={<PersonOutlineIcon />} name={"Profile"} />
             </div>
         </div>

@@ -6,7 +6,7 @@ import DeleteIcon from '@material-ui/icons/Delete';
 import { connect } from "react-redux";
 import AddRoundedIcon from '@material-ui/icons/AddRounded';
 import ContentHeader from '../helpers/ContentHeader'
-import '../../../assets/style/dashboard.scss'
+import '../../../assets/styles/dashboard.scss'
 import AddNewUser from './AddNewUser'
 import Skeleton from "react-loading-skeleton";
 

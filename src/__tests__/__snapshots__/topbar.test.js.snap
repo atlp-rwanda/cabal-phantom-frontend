@@ -41,13 +41,13 @@ exports[`TopBar component Should render add user component properly 1`] = `
       class=""
     >
       <a
-        href="/"
+        href="/admin"
       />
       <div
         class="button_icon"
       >
         <a
-          href="/"
+          href="/admin"
         />
         <a
           class="ml-5 btn btn-outline-secondary"
